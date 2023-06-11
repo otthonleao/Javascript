@@ -1,0 +1,35 @@
+<!-- MODELO DE OBJETO DE DOCUMENTO
+	O DOM é uma interface para documentos do tipo HTML, XML e SVG que fornece
+	representações estruturada a partir de um documento que é estruturado em árvore
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<button type="button" onclick="alertMe()">Click Here to execute from 'onclick'!</button>
+	<button type="button" id="btn">Click Here to execute from eventListener!</button>
+
+	<script>
+		function alertMe() {
+			alert("Hello! This is my first event.")
+		}
+
+		let btn = document.getElementById('btn')
+		btn.addEventListener('click', alertMe)
+
+		//CALLBACK PRA SER EXECUTADO APÓS CARREGAR TODA JANELA
+		window.addEventListener('DOMContentLoaded', function() {
+			console.log("Fui executado após carregar toda janela")
+		})
+
+
+
+	</script>
+</body>
+</html>

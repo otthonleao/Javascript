@@ -1,3 +1,8 @@
+/** 
+ * Função são subprogramas que podem ser definidos e chamados a qualquer momento
+ * quando há necessidade.
+ */
+
 /**
  * FUNÇÃO COM PROCEDIMENTO
  * Quando não retorna nada somente executa o output
