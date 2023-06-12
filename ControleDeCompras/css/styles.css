@@ -1,0 +1,33 @@
+body {
+	background: rgb(239, 238, 238);
+}
+
+.form-group {
+	margin-top: 1rem;
+	padding: rem;
+	display: inline-block;
+}
+
+.form-control {
+	padding: 0.45rem;
+}
+
+.btn {
+	display: inline;
+	background: rgb(87, 208, 87);
+	margin: 0.65rem 0rem 0.8rem 0rem;
+} 
+
+#btn-update {
+	display: none;
+}
+
+#btn-edit, #btn-delete{
+	background-color: rgb(245, 214, 157);
+	margin: 0;
+	padding: 0.1rem 0.8rem;
+}
+
+#btn-delete {
+	background-color: rgb(248, 179, 179);
+}
